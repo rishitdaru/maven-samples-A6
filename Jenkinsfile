@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools { 
       maven 'DHT_MVN' 
-      jdk 'DHT_SENSE' 
+      jdk 'codespace_java_home' 
   }
   stages {
     stage('check out') {
